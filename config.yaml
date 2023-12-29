@@ -1,0 +1,30 @@
+# authentication credentials
+credentials:
+  usernames:
+    safaet:
+      email: mdshafiulabrar@gmail.com
+      name: MD Shafiul Abrar
+      password: $9d8d435114a1da27d8511ab43ad38b8dad304f415d056ed64a2b9d3a3d72a452 #Placeholder for hashed password of 'shafin69'
+
+cookie:
+  expiry_days: 1
+  key: some_signature_key
+  name: some_cookie_name
+preauthorized:
+  emails:
+  - shafiulabrar@growwithdata.net
+
+
+
+
+db:
+  host: "127.0.0.1"
+  user: "root"
+  passwd: "hfebjheg3gf"
+  database: "ExpenseDB"
+  auth_plugin: "mysql_native_password"
+
+
+email_sender:
+  email: "kalim.resource@gmail.com"
+  pass: "abc"
